@@ -26,6 +26,7 @@ func traverseList(head *ListNode) []*ListNode {
 		fmt.Println(nodes)
 		ptr = ptr.Next
 	}
+
 	return nodes
 }
 
