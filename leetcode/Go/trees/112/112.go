@@ -1,18 +1,5 @@
 package main
 
-/*
-*void Postorder(TreeNode * root, vector<int> &v)
-    {
-        if(root == nullptr)
-            return;
-        else
-        {
-            Postorder(root->left, v);
-            Postorder(root->right, v);
-            v.push_back(root->val);
-        }
-    }
-*/
 // Definition for a binary tree node.
 type TreeNode struct {
 	Val   int
