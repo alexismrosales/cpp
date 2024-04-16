@@ -17,6 +17,7 @@ func rotateRight(head *ListNode, k int) *ListNode {
 		return head
 	}
 	timesToRotate := k % totalNodes
+
 	return rotatingNtimes(head, timesToRotate)
 }
 
