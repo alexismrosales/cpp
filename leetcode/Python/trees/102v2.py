@@ -58,7 +58,6 @@ class Solution2:
             else:
                 nodes[depth] = [node.val]
 
-
             # add child nodes in case they exist and increase one level of depth
             if node.left:
                 q.append((node.left, depth + 1))
